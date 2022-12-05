@@ -8,7 +8,7 @@ public class Test {
         Mike.setName("Mike");
         Mike.setId_num("777");
 
-        ArrayList<String> Reportable = new Arraylist<>();
+        ArrayList<String> Reportable = new ArrayList<>();
 
 
 
