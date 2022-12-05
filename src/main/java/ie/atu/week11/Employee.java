@@ -27,4 +27,9 @@ public class Employee implements Reportable{
     public void setId_num(String id_num) {
         this.id_num = id_num;
     }
+
+    @Override
+    public void getReportDetails(String message) {
+
+    }
 }

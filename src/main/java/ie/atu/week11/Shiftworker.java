@@ -47,4 +47,9 @@ public class Shiftworker implements Reportable{
     public void setHourly_payRate(double hourly_payRate) {
         this.hourly_payRate = hourly_payRate;
     }
+
+    @Override
+    public void getReportDetails(String message) {
+
+    }
 }
