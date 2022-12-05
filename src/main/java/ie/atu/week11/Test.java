@@ -10,10 +10,14 @@ public class Test {
 
         ArrayList<String> Reportable = new ArrayList<>();
 
+        Reportable.add(Mike.getName());
+        Reportable.add(Mike.getId_num());
+        System.out.println("ArrayList: " + Reportable);
 
 
 
-        }
+
+
 
     }
 }

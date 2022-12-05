@@ -1,6 +1,6 @@
 package ie.atu.week11;
 
-public class Shiftworker implements Reportable{
+public abstract class Shiftworker implements Reportable{
     private int dayShift = 1;
     private int nightShift = 2;
     private int pay_rollNum;
@@ -52,4 +52,6 @@ public class Shiftworker implements Reportable{
     public void getReportDetails(String message) {
 
     }
+
+    public abstract void getReportDetails(int pay_rollNum, int dayShift, int nightShift, double hourly_payRate, double salary);
 }
